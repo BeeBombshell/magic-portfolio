@@ -75,8 +75,8 @@ const fonts: FontsConfig = {
 const style: StyleConfig = {
   theme: "system", // dark | light | system
   neutral: "gray", // sand | gray | slate | custom
-  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  brand: "indigo", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  accent: "blue", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic
   border: "playful", // rounded | playful | conservative
@@ -124,8 +124,8 @@ const effects: EffectsConfig = {
     color: "brand-background-strong",
   },
   grid: {
-    display: false,
-    opacity: 100,
+    display: true,
+    opacity: 80,
     color: "neutral-alpha-medium",
     width: "0.25rem",
     height: "0.25rem",
@@ -196,7 +196,7 @@ const schema: SchemaConfig = {
 // social links
 const sameAs: SameAsConfig = {
   threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
+  linkedin: "https://www.linkedin.com/in/once-ui/",
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
